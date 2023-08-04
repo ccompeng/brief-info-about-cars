@@ -1,0 +1,278 @@
+[
+    {
+        "id": 1,
+        "brand": "Alfa Romeo",
+        "country": "Italy",
+        "founder": "Nicola Romeo",
+        "year": 1910,
+        "short_desc": "Joined Fiat in 1986",
+        "logo": "./assets/alfa-romeo-logo.png",
+        "flag": "./assets/italy-flag.png"
+    },
+
+    {
+        "id": 2,
+        "brand": "Audi",
+        "country": "Germany",
+        "founder": "August Horch",
+        "year": 1895,
+        "short_desc": "A brand of the Volkwagen group",
+        "logo": "./assets/audi-logo.png",
+        "flag": "./assets/germany-flag.png"
+    },
+
+    {
+        "id": 3,
+        "brand": "BMW",
+        "country": "Germany",
+        "founder": "Karl Friedrich Rapp",
+        "year": 1913,
+        "short_desc": "Owner of Mini and Rolls Royce",
+        "logo": "./assets/bmw-logo.png",
+        "flag": "./assets/germany-flag.png"
+    },
+
+    {
+        "id": 4,
+        "brand": "Chevrolet",
+        "country": "USA",
+        "founder": "Louis Chevrolet",
+        "year": 1911,
+        "logo": "./assets/chevrolet-logo.png",
+        "flag": "./assets/usa-flag.png"
+    },
+
+    {
+        "id": 5,
+        "brand": "Citroen",
+        "country": "France",
+        "founder": "Andre Citroen",
+        "year": 1919,
+        "short_desc": "PSA Peugeot Citroen member since 1976",
+        "logo": "./assets/citroen-logo.png",
+        "flag": "./assets/france-flag.png"
+    },
+
+    {
+        "id": 6,
+        "brand": "Dacia",
+        "country": "Romania",
+        "founder": "Romania",
+        "year": 1966,
+        "short_desc": "It takes its name from the old name of Romania, Dacia",
+        "logo": "./assets/dacia-logo.png",
+        "flag": "./assets/romania-flag.png"
+    },
+
+    {
+        "id": 7,
+        "brand": "Ferrari",
+        "country": "Italy",
+        "founder": "Enzo Ferrari",
+        "year": 1929,
+        "short_desc": "Founded as racing team of Alfa Romeo",
+        "logo": "./assets/ferrari-logo.png",
+        "flag": "./assets/italy-flag.png"
+    },
+
+    {
+        "id": 8,
+        "brand": "Ford",
+        "country": "USA",
+        "founder": "Henry Ford",
+        "year": 1905,
+        "logo": "./assets/ford-logo.png",
+        "flag": "./assets/usa-flag.png"
+    },
+
+    {
+        "id": 9,
+        "brand": "Fiat",
+        "country": "Italy",
+        "founder": "Giovanni Agnelli",
+        "year": 1899,
+        "short_desc": "Fabbrica İtaliana Automobili Torino",
+        "logo": "./assets/fiat-logo.png",
+        "flag": "./assets/italy-flag.png"
+    },
+
+    {
+        "id": 10,
+        "brand": "Honda",
+        "country": "Japan",
+        "founder": "Soichmo Honda",
+        "year": 1948,
+        "logo": "./assets/honda-logo.png",
+        "flag": "./assets/japan-flag.png"
+    },
+
+    {
+        "id": 11,
+        "brand": "Hyundai",
+        "country": "South Korea",
+        "founder": "Chung Ju-yung",
+        "year": 1947,
+        "short_desc": "First established as a construction company",
+        "logo": "./assets/hyundai-logo.png",
+        "flag": "./assets/south-korea-flag.png"
+    },
+
+    {
+        "id": 12,
+        "brand": "Jeep",
+        "country": "USA",
+        "founder": "Willy-Overland",
+        "year": 1943,
+        "short_desc": "Originally produced for the US military",
+        "logo": "./assets/jeep-logo.png",
+        "flag": "./assets/usa-flag.png"
+    },
+
+    {
+        "id": 13,
+        "brand": "Kia",
+        "country": "South Korea",
+        "founder": "Kim Cheol-ho",
+        "year": 1944,
+        "short_desc": "The first bicycle and automobile manufacturer of South Korea",
+        "logo": "./assets/kia-logo.png",
+        "flag": "./assets/south-korea-flag.png"
+    },
+
+    {
+        "id": 14,
+        "brand": "Lamborghini",
+        "country": "Italy",
+        "founder": "Ferruccio Lamborghini",
+        "year": 1963,
+        "short_desc": "Superspor automobile",
+        "logo": "./assets/lamborghini-logo.png",
+        "flag": "./assets/italy-flag.png"
+    },
+
+    {
+        "id": 15,
+        "brand": "Land Rover",
+        "country": "England",
+        "founder": "British Leyland",
+        "year": 1978,
+        "short_desc": "Sold to Tata by Ford in 2008",
+        "logo": "./assets/land-rover-logo.png",
+        "flag": "./assets/england-flag.png"
+    },
+
+    {
+        "id": 16,
+        "brand": "Mercedes-Benz",
+        "country": "Germany",
+        "founder": "Karl Benz, Gottlieb Daimler",
+        "year": 1926,
+        "short_desc": "Name source Daimler's oldest daughter Mercedes",
+        "logo": "./assets/mercedes-logo.png",
+        "flag": "./assets/germany-flag.png"
+    },
+
+    {
+        "id": 17,
+        "brand": "Nissan",
+        "country": "Japan",
+        "founder": "Kenjiro Den, Rokuro Aoyama, Meitaro Takeuchi, Yoshisuke Aikawa",
+        "year": 1934,
+        "logo": "./assets/nissan-logo.png",
+        "flag": "./assets/japan-flag.png"
+    },
+
+    {
+        "id": 18,
+        "brand": "Opel",
+        "country": "Germany",
+        "founder": "Adam Opel",
+        "year": 1862,
+        "short_desc": "Originally established as a sewing machine manufacturer",
+        "logo": "./assets/opel-logo.png",
+        "flag": "./assets/germany-flag.png"
+    },
+
+    {
+        "id": 19,
+        "brand": "Peugeot",
+        "country": "France",
+        "founder": "Armand Peugeot",
+        "year": 1810,
+        "short_desc": "Originally established as a hand tools manufacturer",
+        "logo": "./assets/peugeot-logo.png",
+        "flag": "./assets/france-flag.png"
+    },
+
+    {
+        "id": 20,
+        "brand": "Porsche",
+        "country": "Germany",
+        "founder": "Ferdinand Porsche, Ferry Porche",
+        "year": 1931,
+        "logo": "./assets/porsche-logo.png",
+        "flag": "./assets/germany-flag.png"
+    },
+
+    {
+        "id": 21,
+        "brand": "Renault",
+        "country": "France",
+        "founder": "Louis Renault, Marcel Renault, Fernand Renault",
+        "year": 1898,
+        "logo": "./assets/renault-logo.png",
+        "flag": "./assets/france-flag.png"
+    },
+
+    {
+        "id": 22,
+        "brand": "Seat",
+        "country": "Spain",
+        "founder": "A goverment agency Instituto Nacional de Industria (INI)",
+        "year": 1950,
+        "logo": "./assets/seat-logo.png",
+        "flag": "./assets/spain-flag.png"
+    },
+
+    {
+        "id": 23,
+        "brand": "Toyota",
+        "country": "Japan",
+        "founder": "Kiichino Toyota",
+        "year": 1937,
+        "logo": "./assets/toyota-logo.png",
+        "flag": "./assets/japan-flag.png"
+    },
+
+    {
+        "id": 24,
+        "brand": "Volkswagen",
+        "country": "Germany",
+        "founder": "Germany Worker's Part",
+        "year": 1937,
+        "short_desc": "Originally established by the National Socialist German Worker's part to the German auto association for the single model public car",
+        "logo": "./assets/vw-logo.png",
+        "flag": "./assets/germany-flag.png"
+    },
+
+    {
+        "id": 25,
+        "brand": "Volvo",
+        "country": "Sweden",
+        "founder": "Assar Gabrielsson, Gustav Larson",
+        "year": 1927,
+        "logo": "./assets/volvo-logo.png",
+        "flag": "./assets/sweden-flag.png"
+    },
+
+    {
+        "id": 26,
+        "brand": "TOGG",
+        "country": "Turkiye",
+        "founder": "Republic of Turkiye",
+        "year": 2018,
+        "short_desc": "Türkiye'nin Otomobil Girişim Grubu (TOGG)",
+        "logo": "./assets/togg-logo.png",
+        "flag": "./assets/turkiye-flag.png"
+    }
+]

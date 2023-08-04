@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/favico.ico">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cars Info</title>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div class="logo-box">
+            <img src="./assets/alfa-romeo-logo.png" alt="alfa-romeo-logo" id="1">
+            <img src="./assets/audi-logo.png" alt="audi-logo" id="2">
+            <img src="./assets/bmw-logo.png" alt="bmw-logo" id="3">
+            <img src="./assets/chevrolet-logo.png" alt="chevrolet-logo" id="4">
+            <img src="./assets/citroen-logo.png" alt="citroen-logo" id="5">
+            <img src="./assets/dacia-logo.png" alt="dacia-logo" id="6">
+            <img src="./assets/ferrari-logo.png" alt="ferrari-logo" id="7">
+            <img src="./assets/ford-logo.png" alt="ford-logo" id="8">
+            <img src="./assets/fiat-logo.png" alt="fiat-logo" id="9">
+            <img src="./assets/honda-logo.png" alt="honda-logo" id="10">
+            <img src="./assets/hyundai-logo.png" alt="hyundai-logo" id="11">
+            <img src="./assets/jeep-logo.png" alt="jeep-logo" id="12">
+            <img src="./assets/kia-logo.png" alt="kia-logo" id="13">
+            <img src="./assets/lamborghini-logo.png" alt="lamborghini-logo" id="14">
+            <img src="./assets/land-rover-logo.png" alt="land-rover-logo" id="15">
+            <img src="./assets/mercedes-logo.png" alt="mercedes-logo" id="16">
+            <img src="./assets/nissan-logo.png" alt="nissan-logo" id="17">
+            <img src="./assets/opel-logo.png" alt="opel-logo" id="18">
+            <img src="./assets/peugeot-logo.png" alt="peugeot-logo" id="19">
+            <img src="./assets/porsche-logo.png" alt="porsche-logo" id="20">
+            <img src="./assets/renault-logo.png" alt="renault-logo" id="21">
+            <img src="./assets/seat-logo.png" alt="seat-logo" id="22">
+            <img src="./assets/toyota-logo.png" alt="toyota-logo" id="23">
+            <img src="./assets/vw-logo.png" alt="vw-logo" id="24">
+            <img src="./assets/volvo-logo.png" alt="volvo-logo" id="25">
+            <img src="./assets/togg-logo.png" alt="togg-logo" id="26">
+        </div>
+
+        <div class="car-info">
+            <ul class="text-box">
+                <li id="brand">TOGG</li>
+                <li id="country">It is from Turkiye</li>
+                <li id="founder">Founded by Republic of Turkiye</li>
+                <li id="year">Founded in 2018</li>
+                <li id="desc">Türkiye'nin Otomobil Girişim Grubu (TOGG)</li>
+            </ul>
+
+            <div class="img-box">
+                <img src="./assets/togg-logo.png" alt="" id="logo">
+                <img src="./assets/turkiye-flag.png" alt="" id="flag">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const logos = document.querySelectorAll(".logo-box img");
+        const logoImg = document.querySelector("#logo");
+        const flagImg = document.querySelector("#flag");
+        const brand = document.querySelector("#brand");
+        const country = document.querySelector("#country");
+        const founder = document.querySelector("#founder");
+        const year = document.querySelector("#year");
+        const desc = document.querySelector("#desc");
+
+        let id;
+
+        logos.forEach(logo => {
+            logo.addEventListener("click", function () {
+                id = this.id;
+
+                getData("./data.json");
+            })
+        });
+
+        function getData(file) {
+            fetch(file)
+                .then(response => response.json())
+                .then(data => carInfo(data));
+        }
+
+        function carInfo(arr) {
+            let car = arr.find(el => el.id == Number(id));
+
+
+            logoImg.setAttribute("src", car.logo);
+            flagImg.setAttribute("src", car.flag);
+            brand.textContent = car.brand;
+            country.textContent = "It is from " + car.country;
+            founder.textContent = "Founded by " + car.founder;
+            year.textContent = "Founded in " + car.year;
+            if (car.short_desc) {
+                desc.textContent = car.short_desc;
+                desc.style.listStyle = "circle";
+            } else {
+                desc.textContent = "";
+                desc.style.listStyle = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
